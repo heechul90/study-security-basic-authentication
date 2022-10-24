@@ -17,7 +17,7 @@
 ### BasicAuthenticationFilter 
 - 로그인 페이지를 사용할 수 없을때 (react, vue, angular 등)
 - 설정 방법(springboot version : 2.6.x)
-```text
+```java
     public class SecurityConfig extends WebSecurityConfigurerAdapter {
         
         @Override
